@@ -2,6 +2,10 @@ import './App.css'
 import CLOUDS from 'vanta/src/vanta.clouds'
 import { useEffect } from 'react'
 import StarrySky from './StarrySky';
+import Typer from './Typer';
+import Song from './Song';
+
+
 
 
 function App() {
@@ -24,10 +28,13 @@ function App() {
   }, [])
 
 
+
   return (
     <div className="app">
       <div className="bg" id="vanta"></div>
       <StarrySky />
+      <Typer />
+      <Song audioFile="public/sounds/hills.wav" />
     </div>
   )
 }
