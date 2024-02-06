@@ -64,6 +64,7 @@
   z-index: 3; /* Higher than the starry sky and Vanta.js */
   color: white; /* Choose a color that stands out */
   text-align: center; /* Center the text inside the container */
+  overflow: auto;
 }
 
 .song-container {
@@ -76,7 +77,7 @@
 }
 
 .button-pretty {
-  background-color: #d5e1ef; /* Green background */
+  background-color: #d5e1ef; /* Off-white background */
   border: none; /* Remove borders */
   color: #8e8e91; /* White text */
   text-align: center; /* Centered text */
@@ -95,4 +96,36 @@
 
 .button-pretty:hover {
   background-color: #c8d3e0; /* Darker shade of green on hover */
+}
+
+.section {
+  min-height: 100vh; /* sets minimum height to 100% of the viewport height */
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.scroll-button-container {
+  position: fixed;
+  top: 20px; /* Distance from bottom */
+  right: 20px; /* Distance from right */
+  z-index: 3;
+}
+
+.scroll-button {
+  z-index: 3; /* Higher than other components */
+  position: relative; /* Adjust position as necessary */
+  background-color: #d5e1ef; /* Example background color */
+  border: none;
+  color: #8e8e91;
+  font-weight: bold; /* Make text bold */
+  padding: 10px 20px; /* Rectangle shape */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; /* Rounded edges */
 }

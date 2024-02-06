@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import StarrySky from './StarrySky';
 import Typer from './Typer';
 import Song from './Song';
-
+import Sections from './Sections';
 
 
 
@@ -28,6 +28,20 @@ function App() {
   }, [])
 
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    console.log('Scrolling to:', sectionId, section);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <div className="app">
@@ -35,8 +49,25 @@ function App() {
       <StarrySky />
       <Typer />
       <Song audioFile="public/sounds/hills.wav" />
+
+      <Sections /> {/* Render the Sections component */}
+
+      <div className="scroll-button-container">
+      <button className="scroll-button" onClick={scrollToTop}>
+       Home
+      </button>
+      <button className="scroll-button" onClick={() => scrollToSection('section2')}>
+      Work
+      </button>
+      <button className="scroll-button" onClick={() => scrollToSection('section3')}>
+      Projects
+      </button>
+      <button className="scroll-button" onClick={() => scrollToSection('section4')}>
+      Hobbies
+      </button>
+      </div>
     </div>
-  )
+  );
 }
 
 export default App
