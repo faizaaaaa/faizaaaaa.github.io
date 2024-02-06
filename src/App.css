@@ -59,11 +59,36 @@
 .typer-container {
   position: absolute;
   top: 50%; /* Center vertically */
-  left: 10%; /* Center horizontally */
+  left: 60%; /* Center horizontally */
+  font-size: 30px;
   transform: translate(-50%, -50%); /* Adjust for exact centering */
   z-index: 3; /* Higher than the starry sky and Vanta.js */
   color: white; /* Choose a color that stands out */
   text-align: center; /* Center the text inside the container */
+  overflow: auto;
+}
+
+.home-container {
+  position: absolute;
+  top: 35%; /* Center vertically */
+  left: 20%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact centering */
+  z-index: 3; /* Higher than the starry sky and Vanta.js */
+  color: white; /* Choose a color that stands out */
+  text-align: center; /* Center the text inside the container */
+  font-size: 30px;
+  overflow: auto;
+}
+
+.name-container {
+  position: absolute;
+  top: 42%; /* Center vertically */
+  left: 39%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact centering */
+  z-index: 3; /* Higher than the starry sky and Vanta.js */
+  color: white; /* Choose a color that stands out */
+  text-align: center; /* Center the text inside the container */
+  font-size: 30px;
   overflow: auto;
 }
 
