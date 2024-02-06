@@ -59,7 +59,7 @@
 .typer-container {
   position: absolute;
   top: 50%; /* Center vertically */
-  left: 46%; /* Center horizontally */
+  left: 10%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust for exact centering */
   z-index: 3; /* Higher than the starry sky and Vanta.js */
   color: white; /* Choose a color that stands out */
@@ -69,11 +69,8 @@
 
 .song-container {
   position: relative;
-  z-index: 10;
+  z-index: 3;
   
-  width: 300px;  /* Set a specific width */
-  height: 100px; /* Set a specific height */
-  margin: 20px;  /* Add some margin */
 }
 
 .button-pretty {
@@ -128,4 +125,16 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px; /* Rounded edges */
+}
+
+.scroll-button:hover {
+  background-color: #c8d3e0; /* Darker shade of green on hover */
+}
+
+
+.up-container {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 1000; /* Ensure it's above other elements */
 }

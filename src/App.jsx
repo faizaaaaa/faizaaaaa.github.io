@@ -3,12 +3,20 @@ import CLOUDS from 'vanta/src/vanta.clouds'
 import { useEffect } from 'react'
 import StarrySky from './StarrySky';
 import Typer from './Typer';
-import Song from './Song';
 import Sections from './Sections';
 
 
 
 function App() {
+
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 20, // Adjust this to the desired scroll position
+      behavior: 'smooth'
+    });
+  }, []);
+
 
   useEffect(() => {
     CLOUDS({
@@ -38,7 +46,7 @@ function App() {
 
   const scrollToTop = () => {
     window.scrollTo({
-      top: 0,
+      top: 20,
       behavior: 'smooth'
     });
   };
@@ -48,7 +56,7 @@ function App() {
       <div className="bg" id="vanta"></div>
       <StarrySky />
       <Typer />
-      <Song audioFile="public/sounds/hills.wav" />
+      
 
       <Sections /> {/* Render the Sections component */}
 
@@ -64,6 +72,9 @@ function App() {
       </button>
       <button className="scroll-button" onClick={() => scrollToSection('section4')}>
       Hobbies
+      </button>
+      <button className="scroll-button" onClick={() => scrollToSection('section4')}>
+      Contact
       </button>
       </div>
     </div>
