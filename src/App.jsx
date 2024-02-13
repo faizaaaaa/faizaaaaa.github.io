@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import StarrySky from './StarrySky';
 import Typer from './Typer';
 import Sections from './Sections';
-
+import Top from './Top';
 
 
 function App() {
@@ -56,7 +56,7 @@ function App() {
       <div className="bg" id="vanta"></div>
       <StarrySky />
       <Typer />
-      
+      <Top />
 
       <Sections /> {/* Render the Sections component */}
 

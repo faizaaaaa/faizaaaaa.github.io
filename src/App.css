@@ -99,7 +99,7 @@
 }
 
 .button-pretty {
-  background-color: #d5e1ef; /* Off-white background */
+  background-color: white; /* Off-white background */
   border: none; /* Remove borders */
   color: #8e8e91; /* White text */
   text-align: center; /* Centered text */
@@ -138,7 +138,7 @@
 .scroll-button {
   z-index: 3; /* Higher than other components */
   position: relative; /* Adjust position as necessary */
-  background-color: #eef1f5; /* Example background color */
+  background-color: white; /* Example background color */
   border: none;
   color: #8e8e91;
   font-weight: bold; /* Make text bold */
@@ -168,7 +168,7 @@
   position: relative;
   top: 100%;
   
-  left: 10%; /* Center horizontally */
+  left: 35%; /* Center horizontally */
   z-index: 3; /* Higher than the starry sky and Vanta.js */
   color: #eef1f5; /* Choose a color that stands out */
   
@@ -177,3 +177,30 @@
 .card-container:hover {
   background-color: #c8d3e0; /* Darker shade of green on hover */
 }
+
+.card-container1 {
+  position: relative;
+  top: 100%;
+  left: 60%; /* Center horizontally */
+  z-index: 3; /* Higher than the starry sky and Vanta.js */
+  color: #eef1f5; /* Choose a color that stands out */
+  
+}
+
+.card-container1:hover {
+  background-color: #c8d3e0; /* Darker shade of green on hover */
+}
+
+.card-container2 {
+  position: relative;
+  top: 100%;
+  left: 85%; /* Center horizontally */
+  z-index: 3; /* Higher than the starry sky and Vanta.js */
+  color: #eef1f5; /* Choose a color that stands out */
+  
+}
+
+.card-container2:hover {
+  background-color: #c8d3e0; /* Darker shade of green on hover */
+}
+
