@@ -1,6 +1,8 @@
 import React from 'react';
+import About from './About';
 import Card from './Card';
 import Song from './Song';
+import Work from './Work';
 
 
 
@@ -28,12 +30,16 @@ function Sections() {
 
             <div id="section2" className="section">
                 <Song audioFile="public/sounds/itse.wav" />
-                <Card />
+                <About />
+                
+                
                 
                 {/* Additional content for Section 2 */}
             </div>
             <div id="section3" className="section">
             <Song audioFile="public/sounds/lits.wav" />
+            <Card />
+            <Work></Work>
                 {/* Additional content for Section 3 */}
             </div>
             <div id="section4" className="section">
@@ -41,6 +47,10 @@ function Sections() {
                 {/* Additional content for Section 4 */}
             </div>
             <div id="section5" className="section">
+                <Song audioFile="public/sounds/hills.wav" />
+                {/* Additional content for Section 4 */}
+            </div>
+            <div id="section6" className="section">
                 <Song audioFile="public/sounds/hills.wav" />
                 {/* Additional content for Section 4 */}
             </div>

@@ -167,7 +167,7 @@
 .card-container {
   position: relative;
   top: 100%;
-  
+  width: 60;
   left: 35%; /* Center horizontally */
   z-index: 3; /* Higher than the starry sky and Vanta.js */
   color: #eef1f5; /* Choose a color that stands out */
@@ -204,3 +204,69 @@
   background-color: #c8d3e0; /* Darker shade of green on hover */
 }
 
+.work-container {
+  position: relative;
+  top: 30%;
+  left: 18%; /* Center horizontally */
+  z-index: 3; /* Higher than the starry sky and Vanta.js */
+  color: #eef1f5; /* Choose a color that stands out */
+  
+  
+}
+
+.work-container:hover {
+  background-color: #c8d3e0; /* Darker shade of green on hover */
+}
+
+.work-container1 {
+  position: relative;
+  top: 30%;
+  left: 18%; /* Center horizontally */
+  z-index: 3; /* Higher than the starry sky and Vanta.js */
+  color: #eef1f5; /* Choose a color that stands out */
+  
+}
+
+.work-container1:hover {
+  background-color: #c8d3e0; /* Darker shade of green on hover */
+}
+
+.work-container2 {
+  position: relative;
+  top: 150%;
+  left: 18%; /* Center horizontally */
+  z-index: 3; /* Higher than the starry sky and Vanta.js */
+  color: #eef1f5; /* Choose a color that stands out */
+  
+}
+
+.work-container2:hover {
+  background-color: #c8d3e0; /* Darker shade of green on hover */
+}
+
+.about-container {
+  position: absolute;
+  left: 10%;
+  top: 120%;
+  z-index: 3;
+}
+
+.carattere-regular {
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-real {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.rochester-regular {
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

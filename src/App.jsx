@@ -65,15 +65,18 @@ function App() {
        Home
       </button>
       <button className="scroll-button" onClick={() => scrollToSection('section2')}>
-      Work
+      About
       </button>
       <button className="scroll-button" onClick={() => scrollToSection('section3')}>
+      Work
+      </button>
+      <button className="scroll-button" onClick={() => scrollToSection('section4')}>
       Projects
       </button>
-      <button className="scroll-button" onClick={() => scrollToSection('section4')}>
+      <button className="scroll-button" onClick={() => scrollToSection('section5')}>
       Hobbies
       </button>
-      <button className="scroll-button" onClick={() => scrollToSection('section4')}>
+      <button className="scroll-button" onClick={() => scrollToSection('section6')}>
       Contact
       </button>
       </div>
