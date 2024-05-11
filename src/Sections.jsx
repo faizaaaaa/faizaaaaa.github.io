@@ -12,7 +12,7 @@ function Sections() {
     return (
         <div>
             <div id="section1" className="section">
-                <Song audioFile="public/sounds/hills.wav" />
+                <Song audioFile="/sounds/hills.wav" />
                 <h2 style={{margin: '50px'}} className="home-container">
                 <span style={{fontWeight: 'bold', color: 'white'}}>
                 Welcome to my site 🤍
@@ -29,7 +29,7 @@ function Sections() {
             </div>
 
             <div id="section2" className="section">
-                <Song audioFile="public/sounds/itse.wav" />
+                <Song audioFile="/sounds/itse.wav" />
                 <About />
                 
                 
@@ -37,21 +37,21 @@ function Sections() {
                 {/* Additional content for Section 2 */}
             </div>
             <div id="section3" className="section">
-            <Song audioFile="public/sounds/lits.wav" />
+            <Song audioFile="/sounds/lits.wav" />
             <Card />
             <Work></Work>
                 {/* Additional content for Section 3 */}
             </div>
             <div id="section4" className="section">
-                <Song audioFile="public/sounds/hills.wav" />
+                <Song audioFile="/sounds/hills.wav" />
                 {/* Additional content for Section 4 */}
             </div>
             <div id="section5" className="section">
-                <Song audioFile="public/sounds/hills.wav" />
+                <Song audioFile="/sounds/hills.wav" />
                 {/* Additional content for Section 4 */}
             </div>
             <div id="section6" className="section">
-                <Song audioFile="public/sounds/hills.wav" />
+                <Song audioFile="/sounds/hills.wav" />
                 {/* Additional content for Section 4 */}
             </div>
             {/* Other sections or content */}

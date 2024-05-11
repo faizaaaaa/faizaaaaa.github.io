@@ -30,7 +30,7 @@ export default function Work() {
           • Infrastructured a fully functional application with Go, Postgres and React comprising <strong>4</strong> APIs, <strong>5+</strong> UI components and database <br /><br />
 
           • Conducted product demonstrations and showcased functionality to <strong>100+</strong> team leaders and colleagues <br /><br />
-          <img src="public/images/Twilio_logo.png" alt="Logo" height={50} />
+          <img src="/images/Twilio_logo.png" alt="Logo" height={50} />
       </Item>
         </Grid>
         <Grid item xs={3.6}>
@@ -41,7 +41,7 @@ export default function Work() {
         • Presented and implemented new features and bug resolutions in <strong>Angular</strong> increasing end-user efficiency by more than <strong>50%</strong> <br /><br />
 
         • Documented entire project including bug reports, tickets and code changes of <strong>1000+</strong> lines of code into Jira <br /><br />
-        <img src="public/images/cgi.png" alt="Logo" height={50} />
+        <img src="/images/cgi.png" alt="Logo" height={50} />
       </Item>
         </Grid>
         <Grid item xs={3.6}>
@@ -52,7 +52,7 @@ export default function Work() {
           • Conducted historical analyses of test results and code reviews on <strong>100+</strong> lines of code on the various <strong>viper</strong> model components<br /><br />
 
           • Participated in product design reviews to provide input on potential problems as well as feature suggestions <br /><br />
-          <img src="public/images/rideflag.png" alt="Logo" height={50} />
+          <img src="/images/rideflag.png" alt="Logo" height={50} />
       </Item>
         </Grid>
       </Grid>
